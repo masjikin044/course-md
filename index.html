@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Belajar.ID — Katalog Course</title>
+<meta name="description" content="Platform belajar mandiri berbasis materi Markdown.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap bar">
+    <a class="brand" href="index.html"><span class="dot"></span> Belajar<b>.ID</b></a>
+    <nav class="bar-nav">
+      <a href="#katalog">Katalog</a>
+      <a href="#cara">Cara Akses</a>
+      <button id="themeBtn" class="ghost" title="Ganti tema">◐</button>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <p class="kicker">Static • Cepat • Tanpa Login Ribet</p>
+    <h1>Belajar koding dari materi yang rapi, langsung di browser.</h1>
+    <p class="lead">Semua materi ditulis dalam Markdown, dirender realtime dengan syntax highlighting. Daftar sekali, dapat kode akses, belajar selamanya.</p>
+    <div class="hero-cta">
+      <a class="btn primary" id="heroRegister" href="#" target="_blank" rel="noopener">Daftar / Beli Course</a>
+      <a class="btn" href="#katalog">Lihat Katalog</a>
+    </div>
+  </div>
+</section>
+
+<main class="wrap">
+  <section id="katalog">
+    <div class="sec-head">
+      <h2>Katalog Course</h2>
+      <input id="search" class="search" type="search" placeholder="Cari course…" aria-label="Cari course">
+    </div>
+    <div id="grid" class="grid"></div>
+    <p id="empty" class="empty" hidden>Tidak ada course yang cocok.</p>
+  </section>
+
+  <section id="cara" class="card-plain">
+    <h2>Cara Mendapatkan Akses</h2>
+    <ol class="steps">
+      <li><b>Isi formulir pendaftaran</b> melalui Google Form yang tersedia.</li>
+      <li><b>Konfirmasi</b> pembayaran/pendaftaran lewat WhatsApp atau Email.</li>
+      <li><b>Terima kode akses</b>, lalu masukkan di halaman materi course. Kode tersimpan di perangkat Anda.</li>
+    </ol>
+    <div class="hero-cta">
+      <a class="btn primary" id="ctaForm" href="#" target="_blank" rel="noopener">Formulir Pendaftaran</a>
+      <a class="btn" id="ctaWa" href="#" target="_blank" rel="noopener">Chat WhatsApp</a>
+      <a class="btn" id="ctaMail" href="#">Kirim Email</a>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <p>© <span id="yr"></span> Belajar.ID — dibangun dengan HTML, CSS, dan Vanilla JS. Di-deploy di Vercel.</p>
+  </div>
+</footer>
+
+<script src="js/config.js"></script>
+<script src="js/courses.js"></script>
+<script src="js/app.js"></script>
+<script src="js/access-config.js"></script>
+<script src="js/widgets.js"></script>
+</body>
+</html>
