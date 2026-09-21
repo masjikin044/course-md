@@ -12,7 +12,7 @@ window.SITE_CONFIG = {
   whatsappText: "Halo, saya ingin meminta kode akses untuk course: ",
 
   // Email konfirmasi
-  email: "akhasnul044@gmail.com",
+  email: "akhsanul044@gmail.com",
   emailSubject: "Permintaan Kode Akses Course",
 
   // Kunci penyimpanan LocalStorage
