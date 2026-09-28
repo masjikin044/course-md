@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Materi — Belajar.ID</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css">
+</head>
+<body class="reader-body">
+<header class="topbar">
+  <div class="wrap bar">
+    <a class="brand" href="index.html"><span class="dot"></span> Belajar<b>.ID</b></a>
+    <nav class="bar-nav">
+      <button id="navBtn" class="ghost only-mobile" title="Daftar isi">☰</button>
+      <a href="index.html">Katalog</a>
+      <button id="themeBtn" class="ghost" title="Ganti tema">◐</button>
+    </nav>
+  </div>
+</header>
+
+<!-- Gerbang akses -->
+<section id="gate" class="gate" hidden>
+  <div class="gate-card">
+    <h1 id="gateTitle">Materi Terkunci</h1>
+    <p id="gateDesc" class="muted">Masukkan kode akses yang Anda terima setelah pendaftaran dikonfirmasi.</p>
+    <div class="gate-form">
+      <input id="codeInput" type="text" placeholder="Kode akses (contoh: HTML-2026)" autocomplete="off" spellcheck="false">
+      <button id="unlockBtn" class="btn primary">Buka Materi</button>
+    </div>
+    <p id="gateMsg" class="gate-msg" role="status"></p>
+    <div class="gate-links">
+      <a class="btn primary" id="gForm" href="#" target="_blank" rel="noopener">Daftar / Beli Course</a>
+      <a class="btn" id="gWa" href="#" target="_blank" rel="noopener">Minta Akses via WhatsApp</a>
+      <a class="btn" id="gMail" href="#">Minta Akses via Email</a>
+    </div>
+    <p class="muted small">Belum yakin? <a id="previewLink" href="#">Lihat pratinjau gratis</a> dari course ini.</p>
+  </div>
+</section>
+
+<!-- Reader -->
+<div id="reader" class="layout" hidden>
+  <aside id="sidebar" class="sidebar">
+    <div class="side-head">
+      <p class="side-kicker">Daftar Isi</p>
+      <h2 id="sideTitle">Course</h2>
+      <div class="progress"><span id="progressBar"></span></div>
+      <p id="progressText" class="muted small">0% dibaca</p>
+    </div>
+    <nav id="toc" class="toc"></nav>
+    <div class="side-foot">
+      <a href="index.html" class="btn block">← Semua Course</a>
+      <button id="lockBtn" class="btn block ghost-btn">Kunci Ulang</button>
+    </div>
+  </aside>
+  <div id="scrim" class="scrim"></div>
+  <main class="content">
+    <article id="md" class="markdown"><p class="muted">Memuat materi…</p></article>
+    <nav class="pager">
+      <a id="prevCourse" class="btn" href="#" hidden>← Sebelumnya</a>
+      <a id="nextCourse" class="btn" href="#" hidden>Berikutnya →</a>
+    </nav>
+  </main>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+<script src="js/config.js"></script>
+<script src="js/courses.js"></script>
+<script src="js/app.js"></script>
+<script src="js/access-config.js"></script>
+<script src="js/widgets.js"></script>
+</body>
+</html>
