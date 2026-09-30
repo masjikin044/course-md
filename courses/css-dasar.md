@@ -1,7 +1,5 @@
 # CSS Dasar & Layout Modern
 
-> Kode akses default course ini: **CSS-2026** (ubah di `js/courses.js`).
-
 ## Modul 1 — Cara Menghubungkan CSS
 
 Ada tiga cara, dan yang direkomendasikan adalah file eksternal:

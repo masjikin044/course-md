@@ -1,7 +1,5 @@
 # Docker Dasar
 
-> Kode akses default course ini: **DOCKER-2026** (ubah di `js/courses.js`).
-
 Course ini membawa Anda dari nol: memahami apa itu container, memakai image, menulis Dockerfile, mengelola data dan jaringan, sampai menjalankan banyak layanan dengan Docker Compose.
 
 ## Modul 1 — Apa itu Docker dan Container?

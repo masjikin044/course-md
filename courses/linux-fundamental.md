@@ -1,7 +1,5 @@
 # Linux Fundamental
 
-> Kode akses default course ini: **LINUX-2026** (ubah di `js/courses.js`).
-
 Course ini fokus pada **perintah dasar Linux** di terminal: berpindah folder, mengelola file, membaca isi file, mencari, izin akses, sampai proses dan paket. Semua contoh bisa dicoba di Ubuntu/Debian, WSL di Windows, atau terminal macOS (sebagian besar sama).
 
 ## Modul 1 — Mengenal Terminal

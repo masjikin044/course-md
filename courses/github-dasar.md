@@ -1,7 +1,5 @@
 # GitHub Dasar
 
-> Kode akses default course ini: **GITHUB-2026** (ubah di `js/courses.js`).
-
 **GitHub** adalah layanan online untuk menyimpan repositori Git, berkolaborasi, dan mempublikasikan proyek. Course ini mengasumsikan Anda sudah memahami dasar Git (commit, branch, merge) dari course **Git Dasar**.
 
 ## Modul 1 — Apa yang Ditawarkan GitHub?

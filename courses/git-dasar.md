@@ -1,7 +1,5 @@
 # Git Dasar
 
-> Kode akses default course ini: **GIT-DASAR-2026** (ubah di `js/courses.js`).
-
 **Git** adalah sistem *version control*: mencatat setiap perubahan pada proyek Anda sehingga bisa dilacak, dibandingkan, dan dikembalikan. Course ini membahas Git di komputer Anda (lokal). Untuk berkolaborasi lewat internet, lanjutkan ke course **GitHub Dasar**.
 
 ## Modul 1 — Mengapa Git?

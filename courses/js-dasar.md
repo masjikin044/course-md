@@ -1,7 +1,5 @@
 # JavaScript Dasar
 
-> Kode akses default course ini: **JS-2026** (ubah di `js/courses.js`).
-
 ## Modul 1 — Variabel dan Tipe Data
 
 ```js
